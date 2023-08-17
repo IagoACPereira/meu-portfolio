@@ -4,7 +4,7 @@ const pathProjetos = './database/projetos.json'
 const projetos = JSON.parse(fs.readFileSync(pathProjetos, "utf8"))
 
 const infos = {
-  titulo: 'Meu Portifólio',
+  titulo: 'Meu Portfólio',
   nome: 'Iago Azevedo Costa Pereira',
   desc: 'Encontrei no desenvolvimento de software um hobbie incrível que a cada pequena solução é uma grande conquista, faz eu sentir uma grande satisfação, um sentimento de grande vitória 🤘😍.',
   projetos: projetos,
